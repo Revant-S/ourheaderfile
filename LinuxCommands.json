@@ -1,0 +1,386 @@
+{"docs":"Command","description":"Description"}
+{"docs":"ls","description":"List directory contents"}
+{"docs":"cd","description":"Change directory"}
+{"docs":"cat","description":"Concatenate and print files"}
+{"docs":"pwd","description":"Print working directory"}
+{"docs":"cp","description":"Copy files and directories"}
+{"docs":"mv","description":"Move/rename files and directories"}
+{"docs":"rm","description":"Remove files and directories"}
+{"docs":"mkdir","description":"Make directories"}
+{"docs":"df","description":"Report disk space usage"}
+{"docs":"du","description":"Summarize disk usage for a directory"}
+{"docs":"head","description":"Output first lines of a file"}
+{"docs":"tail","description":"Output last lines of a file"}
+{"docs":"grep","description":"Search for patterns in files"}
+{"docs":"awk","description":"Process text files using AWK programming language"}
+{"docs":"sed","description":"Stream editor for filtering/transforming text"}
+{"docs":"sort","description":"Sort lines in files"}
+{"docs":"wc","description":"Print count of lines"}
+{"docs":"uniq","description":"Remove duplicate lines from a file"}
+{"docs":"diff","description":"Compare two files line by line"}
+{"docs":"tar","description":"Archive files into a tarball"}
+{"docs":"gzip/gunzip","description":"Compress/decompress files"}
+{"docs":"zcat","description":"View gzip compressed files"}
+{"docs":"bzcat","description":"View bzip2 compressed files"}
+{"docs":"xzcat","description":"View xz compressed files"}
+{"docs":"file","description":"Determine file type"}
+{"docs":"chmod","description":"Change file access permissions"}
+{"docs":"chown","description":"Change file owner and group"}
+{"docs":"chroot","description":"Change root directory"}
+{"docs":"passwd","description":"Change user password"}
+{"docs":"whoami","description":"Print effective username"}
+{"docs":"who","description":"List users currently logged in"}
+{"docs":"w","description":"Show who is logged in and what they are doing"}
+{"docs":"id","description":"Print user and group info for a user"}
+{"docs":"last","description":"List last logged in users"}
+{"docs":"sudo","description":"Execute command as superuser"}
+{"docs":"su","description":"Switch to another user account"}
+{"docs":"useradd","description":"Create a new user"}
+{"docs":"usermod","description":"Modify existing user"}
+{"docs":"userdel","description":"Delete a user account"}
+{"docs":"groupadd","description":"Create a new group"}
+{"docs":"groupmod","description":"Modify existing group"}
+{"docs":"groupdel","description":"Delete a group"}
+{"docs":"ssh","description":"Secure shell for remote login"}
+{"docs":"ping","description":"Test connectivity to a host"}
+{"docs":"traceroute","description":"Print network path to a host"}
+{"docs":"netstat","description":"Networking statistical information"}
+{"docs":"ps","description":"Report snapshot of current processes"}
+{"docs":"kill","description":"Send signal to process"}
+{"docs":"killall","description":"Kill processes by name"}
+{"docs":"top","description":"Monitor resource intensive processes"}
+{"docs":"bg","description":"Background a process"}
+{"docs":"fg","description":"Foreground a process"}
+{"docs":"jobs","description":"List current jobs"}
+{"docs":"apt","description":"Package manager for Debian/Ubuntu"}
+{"docs":"dpkg","description":"Package manager for Debian/Ubuntu"}
+{"docs":"pacman","description":"Package manager for Arch Linux"}
+{"docs":"yum","description":"Package manager for RHEL/CentOS"}
+{"docs":"rpm","description":"RPM Package Manager"}
+{"docs":"unzip","description":"Extract ZIP archives"}
+{"docs":"vim","description":"Vi Improved text editor"}
+{"docs":"nano","description":"Simple text editor"}
+{"docs":"echo","description":"Print text"}
+{"docs":"printf","description":"Format and print text"}
+{"docs":"date","description":"Print or set system date"}
+{"docs":"cal","description":"Print calendar"}
+{"docs":"uptime","description":"Tell how long system has been running"}
+{"docs":"wget","description":"Non-interactive download utility"}
+{"docs":"curl","description":"Transfer data to/from a server"}
+{"docs":"scp","description":"Secure copy between hosts"}
+{"docs":"rsync","description":"Remote file sync utility"}
+{"docs":"git","description":"Distributed version control system"}
+{"docs":"svn","description":"Subversion version control system"}
+{"docs":"diff","description":"Compare files line by line"}
+{"docs":"patch","description":"Apply unified diffs"}
+{"docs":"make","description":"Build tool using makefiles"}
+{"docs":"gcc","description":"C/C++ compiler"}
+{"docs":"g++","description":"C++ compiler"}
+{"docs":"javac","description":"Java compiler"}
+{"docs":"python","description":"Python interpreter"}
+{"docs":"perl","description":"Perl interpreter"}
+{"docs":"ruby","description":"Ruby interpreter"}
+{"docs":"node","description":"Node.js interpreter"}
+{"docs":"ping","description":"Test network connectivity"}
+{"docs":"ip","description":"Show network settings"}
+{"docs":"ifconfig","description":"Configure network interfaces"}
+{"docs":"route","description":"View and edit routing table"}
+{"docs":"host","description":"DNS lookup utility"}
+{"docs":"nslookup","description":"Query DNS nameservers"}
+{"docs":"dig","description":"DNS debugging tool"}
+{"docs":"netcat","description":"Network debugging utility"}
+{"docs":"tcpdump","description":"Capture network traffic"}
+{"docs":"wireshark","description":"Network protocol analyzer"}
+{"docs":"mtr","description":"Network diagnostics tool"}
+{"docs":"ssh","description":"Secure shell client"}
+{"docs":"scp","description":"Secure file copy"}
+{"docs":"rsync","description":"Remote file sync"}
+{"docs":"telnet","description":"TCP/IP virtual terminal"}
+{"docs":"nmap","description":"Network discovery and security auditing"}
+{"docs":"tcpflow","description":"Capture TCP sessions"}
+{"docs":"sslscan","description":"SSL/TLS security assessment"}
+{"docs":"links","description":"Text mode web browser"}
+{"docs":"elinks","description":"Text mode web browser"}
+{"docs":"lynx","description":"Text mode web browser"}
+{"docs":"w3m","description":"Text mode web browser"}
+{"docs":"curl","description":"Transfer data from/to server"}
+{"docs":"wget","description":"Non-interactive download"}
+{"docs":"aria2","description":"Multi-protocol download utility"}
+{"docs":"youtube-dl","description":"Download videos from YouTube"}
+{"docs":"mutt","description":"Email client"}
+{"docs":"mail","description":"Send and receive mail"}
+{"docs":"vim","description":"Text editor"}
+{"docs":"nano","description":"Text editor"}
+{"docs":"emacs","description":"Extensible text editor"}
+{"docs":"joe","description":"Text editor"}
+{"docs":"pico","description":"Text editor"}
+{"docs":"ed","description":"Line editor"}
+{"docs":"vi","description":"Visual text editor"}
+{"docs":"cat","description":"Concatenate files"}
+{"docs":"less","description":"Pager for reading files"}
+{"docs":"more","description":"Pager for reading files"}
+{"docs":"tail","description":"Print last lines of files"}
+{"docs":"head","description":"Print first lines of files"}
+{"docs":"od","description":"Dump files in octal/hex"}
+{"docs":"hexdump","description":"Hexadecimal file dumper"}
+{"docs":"hd","description":"Hexadecimal file dumper"}
+{"docs":"xxd","description":"Make hexdump or do reverse hexdump"}
+{"docs":"strings","description":"Print text strings in binary files"}
+{"docs":"uniq","description":"Remove duplicates from sorted files"}
+{"docs":"wc","description":"Count lines"}
+{"docs":"diff","description":"Compare two files line by line"}
+{"docs":"patch","description":"Apply unified diffs to files"}
+{"docs":"grep","description":"Search files for patterns"}
+{"docs":"egrep","description":"Search files for patterns"}
+{"docs":"fgrep","description":"Search files for patterns"}
+{"docs":"sed","description":"Stream editor for filtering/transforming text"}
+{"docs":"awk","description":"Pattern scanning and processing language"}
+{"docs":"sort","description":"Sort lines in files"}
+{"docs":"md5sum","description":"Print MD5 checksums"}
+{"docs":"sha1sum","description":"Print SHA1 checksums"}
+{"docs":"sha256sum","description":"Print SHA256 checksums"}
+{"docs":"sha512sum","description":"Print SHA512 checksums"}
+{"docs":"git","description":"Distributed version control system"}
+{"docs":"svn","description":"Subversion version control system"}
+{"docs":"cvs","description":"Concurrent Versions System"}
+{"docs":"rsync","description":"Remote file sync utility"}
+{"docs":"w","description":"Show who is logged in"}
+{"docs":"who","description":"Show who is logged in"}
+{"docs":"users","description":"List logged in users"}
+{"docs":"finger","description":"User information lookup"}
+{"docs":"last","description":"List last logged in users"}
+{"docs":"screen","description":"Terminal multiplexer"}
+{"docs":"tmux","description":"Terminal multiplexer"}
+{"docs":"nohup","description":"Run process immune to hangups"}
+{"docs":"jobs","description":"List current jobs"}
+{"docs":"bg","description":"Background a process"}
+{"docs":"fg","description":"Foreground a process"}
+{"docs":"kill","description":"Send signal to process"}
+{"docs":"pkill","description":"Kill process by name"}
+{"docs":"killall","description":"Kill processes by name"}
+{"docs":"top","description":"Monitor resource intensive processes"}
+{"docs":"htop","description":"Interactive process viewer"}
+{"docs":"glances","description":"System monitoring tool"}
+{"docs":"atop","description":"System monitor and analyzer"}
+{"docs":"vmstat","description":"Report virtual memory stats"}
+{"docs":"mpstat","description":"Report CPU stats"}
+{"docs":"iostat","description":"Report I/O stats"}
+{"docs":"sar","description":"Collect and report system metrics"}
+{"docs":"free","description":"Report free memory"}
+{"docs":"df","description":"Report disk space usage"}
+{"docs":"du","description":"Estimate file space usage"}
+{"docs":"find","description":"Search for files recursively"}
+{"docs":"locate","description":"Find files in database"}
+{"docs":"which","description":"Locate executables in PATH"}
+{"docs":"whereis","description":"Locate binaries"}
+{"docs":"type","description":"Identify command type"}
+{"docs":"tree","description":"Display directories recursively"}
+{"docs":"stat","description":"Display file and filesystem info"}
+{"docs":"time","description":"Measure program execution time"}
+{"docs":"touch","description":"Change file times"}
+{"docs":"split","description":"Split files"}
+{"docs":"csplit","description":"Split files based on context"}
+{"docs":"shred","description":"Securely wipe files"}
+{"docs":"shred","description":"Securely wipe files"}
+{"docs":"wc","description":"Count lines"}
+{"docs":"cksum","description":"Print CRC checksums and byte counts"}
+{"docs":"md5sum","description":"Print MD5 checksums"}
+{"docs":"sha1sum","description":"Print SHA1 checksums"}
+{"docs":"sha256sum","description":"Print SHA256 checksums"}
+{"docs":"sha512sum","description":"Print SHA512 checksums"}
+{"docs":"sort","description":"Sort lines in files"}
+{"docs":"uniq","description":"Remove duplicate lines from files"}
+{"docs":"comm","description":"Compare two sorted files line by line"}
+{"docs":"diff","description":"Compare two files line by line"}
+{"docs":"patch","description":"Apply unified diffs to files"}
+{"docs":"tr","description":"Translate or delete characters"}
+{"docs":"iconv","description":"Convert encoding of text files"}
+{"docs":"recode","description":"Convert encoding of text files"}
+{"docs":"cut","description":"Extract columns from files"}
+{"docs":"paste","description":"Merge lines of files"}
+{"docs":"join","description":"Join lines from multiple files on a common field"}
+{"docs":"expand","description":"Convert tabs to spaces"}
+{"docs":"unexpand","description":"Convert spaces to tabs"}
+{"docs":"column","description":"Format text in columns"}
+{"docs":"colrm","description":"Remove columns from files"}
+{"docs":"col","description":"Filter reverse line feeds"}
+{"docs":"rev","description":"Reverse lines character-wise"}
+{"docs":"tac","description":"Reverse lines of files"}
+{"docs":"pr","description":"Paginate and columnate files for printing"}
+{"docs":"fold","description":"Wrap lines to fit a specified width"}
+{"docs":"fmt","description":"Simple text formatter"}
+{"docs":"jurky","description":"Convert linefeeds to jurky sequence"}
+{"docs":"nl","description":"Number lines"}
+{"docs":"seq","description":"Print sequence of numbers"}
+{"docs":"bc","description":"Calculator utility"}
+{"docs":"factor","description":"Factor integers"}
+{"docs":"gcd","description":"Calculate greatest common divisor"}
+{"docs":"dc","description":"Desk calculator"}
+{"docs":"units","description":"Convert amounts between units"}
+{"docs":"apropos","description":"Search man pages for keywords"}
+{"docs":"whatis","description":"Show brief man page descriptions"}
+{"docs":"man","description":"Format and display man pages"}
+{"docs":"info","description":"Display GNU Info documents"}
+{"docs":"pinfo","description":"Pipe GNU Info pages through pager"}
+{"docs":"help","description":"Shell builtin for help"}
+{"docs":"--help","description":"Display command help"}
+{"docs":"tldr","description":"Simplified man pages"}
+{"docs":"tutorial","description":"Tutorial information"}
+{"docs":"howto","description":"HOWTO information"}
+{"docs":"intro","description":"Introduction/overview info"}
+{"docs":"pdfintro","description":"PDF introductions to topics"}
+{"docs":"pdfhowto","description":"PDF HOWTO documents"}
+{"docs":"pdfinfo","description":"PDF info documents"}
+{"docs":"ascii","description":"ASCII character charts and tables"}
+{"docs":"unicode","description":"Unicode character info and utilities"}
+{"docs":"uconv","description":"Convert data between Unicode encodings"}
+{"docs":"enca","description":"Detect and convert encoding of text files"}
+{"docs":"recode","description":"Convert text file encodings"}
+{"docs":"iconv","description":"Convert text file encodings"}
+{"docs":"ucmap","description":"Character code mapping table"}
+{"docs":"zcat","description":"Uncompress gzip files to stdout"}
+{"docs":"bzcat","description":"Decompress bzip2 files to stdout"}
+{"docs":"xzcat","description":"Decompress xz files to stdout"}
+{"docs":"zmore","description":"Filter compressed files through pager"}
+{"docs":"zless","description":"Filter compressed files through pager"}
+{"docs":"lzcat","description":"Uncompress lzip files to stdout"}
+{"docs":"lzless","description":"Filter lzip compressed files with pager"}
+{"docs":"lzmore","description":"Filter lzip compressed files through pager"}
+{"docs":"zdiff","description":"Diff compressed files"}
+{"docs":"zcmp","description":"Compare compressed files"}
+{"docs":"zgrep","description":"Grep compressed files"}
+{"docs":"zegrep","description":"Grep and decompress compressed files"}
+{"docs":"zfgrep","description":"Fixed grep compressed files"}
+{"docs":"zless","description":"Pager for compressed files"}
+{"docs":"zmore","description":"Filter compressed files through pager"}
+{"docs":"znew","description":"Recompress gzipped files to optimize compression"}
+{"docs":"gzexe","description":"Compress executables"}
+{"docs":"gziprecover","description":"Recover data from damaged gzip files"}
+{"docs":"rabin2","description":"Compute and verify file checksums and more"}
+{"docs":"bogofilter","description":"Bayesian spam filter"}
+{"docs":"amavisd","description":"Email antivirus and antispam scanner"}
+{"docs":"spamc","description":"Spam classification client"}
+{"docs":"ipset","description":"IP sets management for iptables"}
+{"docs":"fail2ban-server","description":"Server for Fail2Ban"}
+{"docs":"logwatch","description":"Log analyzer and reporter"}
+{"docs":"rkhunter","description":"Rootkit"}
+{"docs":"nagios","description":"System and network monitoring"}
+{"docs":"iftop","description":"Display bandwidth usage on interfaces"}
+{"docs":"iptstate","description":"Connection tracking utility for iptables and ip6tables"}
+{"docs":"ifstat","description":"Report interface bandwidth and more"}
+{"docs":"ifwatch","description":"Execute commands based on network interface status"}
+{"docs":"ss","description":"Dump socket statistics"}
+{"docs":"glances","description":"System monitoring and viewing tool"}
+{"docs":"dstat","description":"Versatile system statistics tool"}
+{"docs":"dtrace","description":"Dynamic tracing tool"}
+{"docs":"perf-tools","description":"Performance analysis tools"}
+{"docs":"sysstat","description":"System performance tools"}
+{"docs":"xosview","description":"Small X11 system monitor utility"}
+{"docs":"ab","description":"Apache HTTP server benchmarking tool"}
+{"docs":"wrk","description":"Modern HTTP benchmarking tool"}
+{"docs":"webbench","description":"Simple multi-threaded web benchmarking tool"}
+{"docs":"autossh","description":"Automatically restart SSH sessions and tunnels"}
+{"docs":"inotify-tools","description":"Command line tools for inotify"}
+{"docs":"reptyr","description":"Reparent a running program to a new terminal"}
+{"docs":"nohup","description":"Run process immune to hangups"}
+{"docs":"automake","description":"Automatically generate Makefile.in"}
+{"docs":"autoconf","description":"Create autoconfiguration files"}
+{"docs":"libtool","description":"Shared library support script"}
+{"docs":"cmake","description":"Cross platform makefile generator"}
+{"docs":"re2c","description":"Generate C-based recognizers from regular expressions"}
+{"docs":"flex","description":"Fast lexical analyzer generator"}
+{"docs":"bison","description":"General purpose parser generator"}
+{"docs":"rpcgen","description":"Remote procedure call (RPC) tool"}
+{"docs":"swig","description":"Generate scripting language interfaces"}
+{"docs":"ctags","description":"Generate tag files for source code"}
+{"docs":"cscope","description":"Interactive C source examination tool"}
+{"docs":"sloccount","description":"Count physical lines of source code"}
+{"docs":"tokei","description":"Count lines of code quickly"}
+{"docs":"flawfinder","description":"Find potential security flaws in source code"}
+{"docs":"ld","description":"Control how executables are linked"}
+{"docs":"ldd","description":"Print shared libraries linked by executables"}
+{"docs":"fixdep","description":"Fix up Makefile dependencies"}
+{"docs":"make","description":"Build executables from source code"}
+{"docs":"cmake","description":"Cross-platform makefile generator"}
+{"docs":"configure","description":"Configure source code packages"}
+{"docs":"autoreconf","description":"Automatically bootstrap build systems"}
+{"docs":"gnumake","description":"GNU implementation of Make"}
+{"docs":"cmake","description":"Cross-platform makefile generator"}
+{"docs":"ninja","description":"Small build system for use with gyp or CMake"}
+{"docs":"scons","description":"Extensible Python-based build utility"}
+{"docs":"ant","description":"Java-based build tool"}
+{"docs":"maven","description":"Java project management and build tool"}
+{"docs":"gradle","description":"Build automation tool for Java projects"}
+{"docs":"cargo","description":"Rust package manager and build tool"}
+{"docs":"wasm-pack","description":"Rust => WebAssembly workflow tool"}
+{"docs":"meson","description":"High-productivity build system"}
+{"docs":"ninja","description":"Small build system with a focus on speed"}
+{"docs":"makefiles &cc","description":"gcc"}
+{"docs":"rustc","description":"Rust compiler"}
+{"docs":"go build/install","description":"Go compiler and toolchain"}
+{"docs":"tsc","description":"TypeScript compiler"}
+{"docs":"docker build","description":"Build Docker images"}
+{"docs":"bazel build","description":"Build software with Bazel"}
+{"docs":"msbuild","description":"Microsoft build tool for .NET"}
+{"docs":"debuild","description":"Build Debian packages"}
+{"docs":"checkinstall","description":"Install from source code and create .deb"}
+{"docs":"rpmbuild","description":"Build RPM packages"}
+{"docs":"mock","description":"Build RPM packages in chroots"}
+{"docs":"strace","description":"Trace system calls and signals"}
+{"docs":"ltrace","description":"Trace library calls"}
+{"docs":"perf","description":"Linux profiling with performance counters"}
+{"docs":"sysdig","description":"System exploration and troubleshooting tool"}
+{"docs":"opensnoop","description":"Monitor file opens in real-time"}
+{"docs":"execsnoop","description":"Trace new processes in real-time"}
+{"docs":"dtrace","description":"Dynamic tracing tool"}
+{"docs":"systemtap","description":"Scriptable dynamic tracing tool"}
+{"docs":"gdb","description":"The GNU debugger"}
+{"docs":"cgdb","description":"Console front-end for GDB"}
+{"docs":"lldb","description":"The LLVM debugger"}
+{"docs":"valgrind","description":"Debugging and profiling tools"}
+{"docs":"kcachegrind","description":"Memory profiler frontend"}
+{"docs":"heaptrack","description":"Trace memory allocations"}
+{"docs":"massif","description":"Measure heap memory allocation over time"}
+{"docs":"bootchart","description":"Profile system boot performance"}
+{"docs":"perf","description":"Performance analysis tools for Linux"}
+{"docs":"gprof","description":"Display call graph profile data"}
+{"docs":"rake","description":"Ruby Make build tool"}
+{"docs":"bundle","description":"Manage Ruby gems/libraries"}
+{"docs":"puppet","description":"Server configuration management"}
+{"docs":"chef","description":"Infrastructure automation framework"}
+{"docs":"ansible","description":"Radically simple IT automation"}
+{"docs":"saltstack","description":"Infrastructure automation and management system"}
+{"docs":"terraform","description":"Infrastructure as code tool"}
+{"docs":"packer","description":"Create machine images across platforms"}
+{"docs":"vagrant","description":"Portable development environments"}
+{"docs":"docker","description":"Container runtime"}
+{"docs":"podman","description":"Container runtime"}
+{"docs":"buildah","description":"Build OCI containers"}
+{"docs":"cri-o","description":"OCI-based container runtime for Kubernetes"}
+{"docs":"rkt","description":"Container runtime focused on security"}
+{"docs":"linuxkit","description":"Toolkit for building secure"}
+{"docs":"nsenter","description":"Run commands in namespaces"}
+{"docs":"unshare","description":"Run commands in new namespaces"}
+{"docs":"ip netns","description":"Process network namespace management"}
+{"docs":"connmon","description":"TCP connection monitoring tool"}
+{"docs":"powertop","description":"Diagnose issues with power consumption"}
+{"docs":"turbostat","description":"Report CPU C-state residency"}
+{"docs":"vmstat","description":"Report virtual memory statistics"}
+{"docs":"mpstat","description":"Report CPU statistics"}
+{"docs":"iostat","description":"Report I/O statistics"}
+{"docs":"nmon","description":"Monitor system performance"}
+{"docs":"htop","description":"Interactive process viewer"}
+{"docs":"atop","description":"Linux system monitor"}
+{"docs":"glances","description":"Cross-platform system monitoring"}
+{"docs":"dstat","description":"Versatile resource statistics tool"}
+{"docs":"collectl","description":"Collect system performance metrics"}
+{"docs":"sar","description":"Collect and report system activity data"}
+{"docs":"numastat","description":"Show NUMA node memory statistics"}
+{"docs":"lscpu","description":"Display architecture information"}
+{"docs":"lsusb","description":"List USB devices"}
+{"docs":"lsscsi","description":"List SCSI devices"}
+{"docs":"lsblk","description":"List block devices"}
+{"docs":"lshw","description":"List hardware information"}
+{"docs":"hwinfo","description":"Probe for hardware"}
+{"docs":"inxi","description":"CLI system information tool"}
+{"docs":"neofetch","description":"Show system info with distro logo"}
